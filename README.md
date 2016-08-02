@@ -1,4 +1,4 @@
-![Cine Guide](header.jpg?raw=true "Cine Guide")
+![Cine Guide](github-header.jpg?raw=true "Cine Guide")
 
 # Cine Guide
 Cine Guide is an small iOS Application that interacts with the Trakt.tv API showing the most popular movies and has a search movie feature written in Swift 2.2
