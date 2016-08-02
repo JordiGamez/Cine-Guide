@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="0HE-aQ-twa">
+                                <rect key="frame" x="210" y="239.5" width="180" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="mzP-0c-geV"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mzP-0c-geV"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0HE-aQ-twa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2Rm-AU-Giu"/>
+                            <constraint firstItem="0HE-aQ-twa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="G3T-kC-m93"/>
+                            <constraint firstItem="0HE-aQ-twa" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.3" id="Y5Q-4N-cVZ"/>
+                            <constraint firstItem="0HE-aQ-twa" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.2" id="ex5-Ak-7g3"/>
+                            <constraint firstItem="0HE-aQ-twa" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="2:4" id="vYI-0m-uGd"/>
+                            <constraint firstItem="0HE-aQ-twa" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="1:2" id="wv5-ke-OGc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="vYI-0m-uGd"/>
+                                <exclude reference="wv5-ke-OGc"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="300" height="315"/>
+    </resources>
+</document>
